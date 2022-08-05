@@ -1,0 +1,33 @@
+body {
+  margin:auto;
+  width:70%;
+}
+
+h0,h1,h2,h3{
+  font-family: arial, sans-serif;
+}
+h1 {
+  font-size: 32px;
+}
+p{
+text-indent: 30px;
+text-align: justify;
+}
+blockquote{
+  text-align: justify;
+  font-style: oblique;
+}
+table, th,td {
+  border:1px solid black;
+  margin:auto;
+  width:70%;
+  text-align: center;
+}
+figure{
+  float:right;
+  margin: 15px 0 15px 25px;
+}
+figcaption {
+  font-style: italic;
+  text-align: center;
+  }
