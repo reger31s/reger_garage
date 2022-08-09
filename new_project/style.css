@@ -5,19 +5,29 @@ header,a{
 
   text-align: center;
   /* display: flex; */
-  background:#008B8B;
+  background:#007765;
   color:white;
   text-decoration: none;
   height: 84px;
   min-width: 120px;
 }
+h2{
+  text-align: center;
+  color:#007765;
+}
 #first{
-  display:block;
+  display:flex;
   text-align: center;
   color:white;
   height: 403px;
   min-width: 120px;
   background: url("img/image.png");
+}
+#fours{
+  display:block;
+  height: 483px;
+  min-width: 120px;
+  background: url("/img/image (1).png";
 }
 footer {
   color: white;
