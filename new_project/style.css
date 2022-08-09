@@ -1,9 +1,22 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-header{
-  margin: auto;
+
+header,a{
+    /* display: flex; */
+  /* align-items: center; */
+
+  text-align: center;
+  /* display: flex; */
   background:#008B8B;
+  color:white;
+  text-decoration: none;
+  height: 60px;
+  min-width: 60px;
 }
-table{
-  margin: auto;
-  background:#008B8B;
-}
+/* header {
+    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+} */
