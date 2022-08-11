@@ -2,8 +2,13 @@
 img {
   visibility:visible;
 }
+#header
+{background: #007765;
+}
 header,a{
+
   display: block;
+visibility:visible;
   text-align: center;
   background: #007765;
   color: white;
