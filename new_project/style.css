@@ -23,7 +23,8 @@ header {
 #head{margin-right: 30px;}
 a {text-decoration: none;
   color:white;}
-
+h3{color:#007765;
+}
 
 h2{font-family: sans-serif;
   text-align: center;
@@ -92,18 +93,28 @@ p {
   background:#EEEEEE;
   height:845px;
   min-width:120px;
-  display: flex;
   align-content: center;
+}
+#teem_in{
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex; */
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 figure {
+  display: flex;
   height:283px;
   width:350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-#imago{
-  height:168px;
-  min-width:168px;
+figcaption{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 
