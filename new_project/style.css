@@ -1,29 +1,39 @@
 
-img {
-  visibility:visible;
-}
-#header
-{background: #007765;
-}
-header,a{
-
-  display: block;
-visibility:visible;
-  text-align: center;
+header {
   background: #007765;
-  color: white;
-  text-decoration: none;
   height: 84px;
   min-width: 120px;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
 }
-h2{
+#hihead {
+  color: white;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#pict {
+  width:184px;
+  height: 45px;
+  margin-left: 30px;
+  margin-top: 19px;
+  margin-bottom: 20px;
+}
+#head{margin-right: 30px;}
+a {text-decoration: none;
+  color:white;}
+
+
+h2{font-family: sans-serif;
   text-align: center;
   color:#007765;
+  font-size: 60px;
 }
 #first{
+  font-size: 80px;
+  font-family: sans-serif;
+  color:white;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -31,29 +41,84 @@ h2{
   min-width: 120px;
   background: url("img/image.png");
 }
-#coin{
-  display:block;
-  height: 483px;
-  min-width: 120px;
-  background: url("img/image (1).png");
-
+p {
+  text-align: justify;
+  font-size: 32px;
 }
-footer {
-  color: white;
-  background:#333333;
+#the{
+  /* padding: 30px; */
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url('https://i.ibb.co/PM6cMBn/image.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+#coin {
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pict2{
+  width:115px;
+  height: 115px;
+  float:left;
+  margin: 15px 25px 15px 25px;
+}
+#teem{
+  background:#EEEEEE;
+  height:845px;
+  min-width:120px;
+  display: flex;
   align-content: center;
   justify-content: center;
   align-items: center;
-  display: flex;
+}
+figure {
+  height:283px;
+  width:350px;
+}
+#imago{
+  height:168px;
+  min-width:168px;
+}
+
+
+footer {
+  background:#333333;
   height:176px;
   min-width:120px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
-/* header {
-    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
-    display: flex;
-    height: 120px;
-    min-width: 120px;
-    align-items: center;
-    color: #fff;
-    text-shadow: #000 0 0 .2em;
-} */
+#end{
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
